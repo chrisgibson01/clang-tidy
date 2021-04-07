@@ -1,4 +1,4 @@
-Checks:          'clang-diagnostic-*,clang-analyzer-*,analyzer*,cppcoreguidelines*,performance*'
+Checks:          'clang-diagnostic-*,clang-analyzer-*,cppcoreguidelines*,bugprone*,performance*'
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 AnalyzeTemporaryDtors: false
