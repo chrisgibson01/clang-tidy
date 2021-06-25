@@ -1,4 +1,10 @@
-Checks:          'clang-diagnostic-*,clang-analyzer-*,cppcoreguidelines*,-cppcoreguidelines-pro-type-vararg,bugprone*,performance*'
+Checks:          'clang-diagnostic-*,
+                  clang-analyzer-*,
+                  cppcoreguidelines*,
+                  -cppcoreguidelines-pro-type-vararg,
+                  -cppcoreguidelines-init-variables,
+                  bugprone*,
+                  performance*'
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 AnalyzeTemporaryDtors: false
